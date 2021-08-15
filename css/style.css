@@ -2,7 +2,26 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(https://raw.githubusercontent.com/alldsaiw/news-example/master/img/preview.jpg);
     background-repeat: repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    flex-wrap: wrap;
 }
+header{
+flex-basis: 100%;
+background-color:antiquewhite;
+border:burlywood solid 3px;
+}
+
+nav{
+    position: fixed;
+    width: 10%;
+
+}
+
+ul {
+    position: absolute;
+   }
 
 a {
     text-decoration: none;
@@ -33,6 +52,7 @@ img {
 /* News Section Start */
 main {
     margin-top: 70px;
+    margin-left: 10%;
 }
 
 article {
