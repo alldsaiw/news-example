@@ -2,25 +2,27 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(https://raw.githubusercontent.com/alldsaiw/news-example/master/img/preview.jpg);
     background-repeat: repeat;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+
 }
 header{
-flex-basis: 100%;
 background-color:antiquewhite;
 border:burlywood solid 3px;
+margin-left: 10%;
+max-width: 70%;
 }
 
 nav{
     position: fixed;
     width: 10%;
+    height: 100%;
+    background-color: aliceblue;
 
 }
 
 ul {
     position: absolute;
+    padding-top: 10%;
+    font-size: 0.8rem;
    }
 
 a {
@@ -42,22 +44,21 @@ img {
 .page-title {
     letter-spacing: 1px;
     margin-bottom: 3px;
+    font-size: 1.4rem;   
 }
 
 .page-description {
     color: grey;
-    font-size: 16px;
+    font-size: 1rem;
     margin-top: 3px;
 }
 /* News Section Start */
 main {
-    margin-top: 70px;
     margin-left: 10%;
-width: 90%;
-}
+    max-width: 70%;
+    }
 
 article {
-    
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: antiquewhite;
@@ -65,7 +66,7 @@ article {
 }
 
 .article-author, .article-time{
-    font-size: 14px;
+    font-size: 0.8rem;
     color: lightseagreen;
     font-weight: bolder;
 }
@@ -75,6 +76,7 @@ article {
 }
 
 .article-title {
+    font-size: 1rem;
     border-left: 4px solid darkgray;
     margin-left: 10px;
     padding-left: 5px;
@@ -84,10 +86,12 @@ article {
     border-left: 4px solid lightgray;
     font-style: italic;
     padding-left: 5px;
-    line-height: 22px;
+    font-size: 0.7rem;
 }
 
 .article-link {
     color: cornflowerblue;
     font-weight: bolder;
+    font-size: 0.7rem;
+}
 }
