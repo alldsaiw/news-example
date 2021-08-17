@@ -7,13 +7,13 @@ body {
 header{
 background-color:antiquewhite;
 border:burlywood solid 3px;
-margin-left: 10%;
-max-width: 70%;
+margin-left: 23%;
+max-width: 75%;
 }
 
 nav{
     position: fixed;
-    width: 10%;
+    width: 20%;
     height: 100%;
     background-color: aliceblue;
 
@@ -23,6 +23,10 @@ ul {
     position: absolute;
     padding-top: 10%;
     font-size: 0.8rem;
+    list-style-type: none;
+    margin-left: 5%; 
+    padding-left: 5%;
+    line-height: 22px;
    }
 
 a {
@@ -54,8 +58,8 @@ img {
 }
 /* News Section Start */
 main {
-    margin-left: 10%;
-    max-width: 70%;
+    margin-left: 23%;
+    max-width: 75%;
     }
 
 article {
@@ -94,4 +98,4 @@ article {
     font-weight: bolder;
     font-size: 0.7rem;
 }
-}
+
