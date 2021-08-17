@@ -53,10 +53,11 @@ img {
 main {
     margin-top: 70px;
     margin-left: 10%;
+width: 90%;
 }
 
 article {
-    width: 600px;
+    
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: antiquewhite;
